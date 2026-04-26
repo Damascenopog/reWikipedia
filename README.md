@@ -1,19 +1,75 @@
-# Módulo 3 - Trilha HTML
+# ReWikipedia - One Piece
 
-**Título:** Recriando Wikipedia, com um layout melhor :)
+Projeto desenvolvido no desafio da Trilha HTML da DIO, com proposta de recriar uma pagina no estilo Wikipedia usando HTML e CSS.
 
-## Objetivo
-Este desafio consiste em treinar você com relação a estrutura do site, e também aplicar conhecimentos adiquiridos sobre semântica e acessibilidade.
+O tema escolhido foi **One Piece**, reunindo sinopse e principais sagas em um layout com:
 
-## Desafio
-Neste repositório tem uma estrutura básica já pré-montada de um layout simples com um pouco de CSS aplicado. Apenas para deixar mais apresentável.
+- topo com logo
+- menu lateral
+- conteudo principal em formato de artigo
+- indice lateral com ancoras para navegacao interna
+- rodape
 
-Fiquem a vontade para criar da forma que desejarem, e sobre os temas que quiserem. O intuito aqui é divertir, e ao mesmo tempo aprender com o desafio.
+## Preview
 
-Sigam as intruções da chamada do vídeo. Acredito que por lá, ficará mais fácil de entenderem como proceder.
+Pagina estatica com foco em estrutura semantica e organizacao de conteudo.
 
-## Links úteis
-- [Download do NVDA](https://www.nvaccess.org/download/)
-- [Wikipedia](https://pt.wikipedia.org/)
+## Tecnologias
+
+- HTML5
+- CSS3
+
+## Estrutura do projeto
+
+```text
+ReWikipedia/
+|- index.html
+|- README.md
+|- assets/
+	|- css/
+	|  |- style.css
+	|- images/
+```
+
+## Como executar localmente
+
+1. Clone este repositorio:
+
+```bash
+git clone https://github.com/Damascenopog/reWikipedia.git
+```
+
+2. Acesse a pasta do projeto:
+
+```bash
+cd ReWikipedia
+```
+
+3. Abra o arquivo `index.html` no navegador.
+
+Opcional: use uma extensao como **Five Server** ou **Live Server** no VS Code para facilitar a visualizacao.
+
+## O que voce encontra na pagina
+
+- Introducao sobre One Piece
+- Secao de sinopse
+- Lista de sagas com imagem e texto
+- Navegacao por ancoras na lateral direita
+
+## Aprendizados do projeto
+
+- Uso de tags semanticas (`header`, `main`, `article`, `aside`, `footer`)
+- Organizacao de layout com CSS Grid
+- Estruturacao de conteudo longo com navegacao interna
+
+## Melhorias futuras
+
+- Tornar o layout mais responsivo para telas menores
+- Refinar estilos tipograficos e espacamentos
+- Melhorar acessibilidade (alt text, hierarquia de titulos e navegacao por teclado)
+
+## Autor
+
+Projeto feito por **DamascenoPog** durante os estudos de HTML na DIO.
 
 
